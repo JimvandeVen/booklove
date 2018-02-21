@@ -1,0 +1,33 @@
+body {
+    position: relative;
+    font-family: 'Segoe UI', Myriad, Verdana, sans-serif;
+    max-width: 100vw;
+    background-color: #f4f1e5;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #333;
+    height: 3em;
+    justify-content: space-around;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+header img{
+    height: 2em;
+    margin-top: 0.5em;
+}
+
+.berichten{
+    height: 1.5em;
+    margin-top: 0.75em;
+}
+
+
+
+
