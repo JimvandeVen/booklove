@@ -106,17 +106,21 @@ section ul img {
     display: none;
 }
 
-.inloggen label {
+.inloggen label,
+.aanmelden label {
     display: block
 }
 
-.inloggen input[type='submit'] {
+.inloggen input[type='submit'],
+.aanmelden input[type='submit'] {
     display: block;
+    margin-top: 1em;
 }
 
 .loginH2 {
     margin-left: 0;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .inlogTitel {
@@ -138,7 +142,7 @@ section ul img {
 
 
 .eigenProfielSection h3,
-.profielSection h3{
+.profielSection h3 {
     margin-top: 3em;
     display: block;
     margin-left: 0;
@@ -146,18 +150,19 @@ section ul img {
 }
 
 .eigenProfielSection h4,
-.profielSection h4{
+.profielSection h4 {
     display: block;
     margin-left: 0;
     margin-bottom: 0;
 }
 
 .eigenProfielSection p,
-.profielSection p{
+.profielSection p {
     margin-top: 0;
 }
 
-.eigenProfielSection li:last-of-type {
+.eigenProfielSection li:last-of-type,
+.aanmeldenStap1 li:last-of-type {
     width: 4em;
     background-color: #333;
     padding-top: 1em;
@@ -186,4 +191,65 @@ section ul img {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.chatDetail {
+    position: relative;
+}
+
+.chatDetail img {
+    max-width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.profielAanmakenSection {
+    position: relative;
+}
+
+.profielAanmakenSection img {
+    position: sticky;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profielAanmakenSection h2 {
+    margin-left: 0;
+    text-align: center;
+    display: block;
+}
+
+.profielAanmakenSection p,
+.profielAanmakenSection a {
+    text-align: center;
+    display: block;
+}
+
+.profielAanmakenSection a {
+    width: 10em;
+    height: 2em;
+    padding: 1em;
+    position: sticky;
+    left: 50%;
+    transform: translateX(-25%);
+    background-color: #BA1B40;
+    color: white;
+    text-decoration: none;
+    text-emphasis: none;
+    margin: 0;
+}
+
+.aanmeldenStap1 {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type='radio'] {
+    margin: 0;
+    display: inline;
+}
+
+label:nth-of-type(n+5) {
+    display: inline;
+    margin-right: 1em;
 }
