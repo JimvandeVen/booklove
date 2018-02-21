@@ -14,8 +14,3 @@ function closeInlog() {
 }
 
 main.addEventListener("click", openInlog);
-
-
-
-//inlogKnop.addEventListener("click", openInlog);
-//var inlogKnop = document.querySelector(".main");

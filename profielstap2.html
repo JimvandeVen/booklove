@@ -17,16 +17,16 @@
         <a href="/berichten.html"><img class="berichten" src="css/images/bericht.png" alt="Logo"></a>
     </header>
     <main>
-        <section class="inloggen hidden">
+        <section class="inloggen hidden boekToevoegenSection">
             <h2>Voeg je boek toe</h2>
-            <form action="/profielstap2.html">
+            <form action="">
                 <label for="titel">Titel</label>
                 <input required id="titel" placeholder="In Europa" class="formInput">
                 <label for="auteur">Auteur</label>
                 <input required id="auteur" placeholder="Geert Mak" class="formInput">
                 <label for="isbn">ISBN (Optioneel)</label>
                 <input id="isbn" placeholder="9872987547" class="formInput">
-                <input type="submit" value="inloggen" class="formButton" id="inloggenSubmit">
+                <input type="submit" value="inloggen" class="boekToevoegenSubmit" id="inloggenSubmit">
             </form>
 
         </section>
@@ -37,7 +37,7 @@
             <ul>
                 <li><img src="css/images/de%20levens%20van%20jan%20six.jpg" alt=""></li>
                 <li><img src="css/images/rijzen%20zonder%20john.jpg" alt=""></li>
-                <li><img src="css/images/add@2x.png" alt=""></li>
+                <li class="boekToevoegen"><img src="css/images/add@2x.png" alt=""></li>
             </ul>
             <form action="/ingelogd.html">
                 <input type="submit" value="VOLGENDE STAP" class="formButton" id="stap2Submit">
@@ -51,4 +51,5 @@
 
 
     </main>
+    <script src="js/javaprofielstap2.js"></script>
 </body>
