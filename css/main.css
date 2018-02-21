@@ -75,6 +75,7 @@ section ul {
     display: flex;
     justify-content: space-around;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 section li {}
@@ -82,6 +83,7 @@ section li {}
 
 section ul img {
     width: 4em;
+
 }
 
 .inloggen {
@@ -135,19 +137,53 @@ section ul img {
 }
 
 
-.eigenProfielSection h3{
+.eigenProfielSection h3,
+.profielSection h3{
     margin-top: 3em;
     display: block;
     margin-left: 0;
     margin-bottom: 0;
 }
 
-.eigenProfielSection h4{
+.eigenProfielSection h4,
+.profielSection h4{
     display: block;
     margin-left: 0;
     margin-bottom: 0;
 }
 
-.eigenProfielSection p{
+.eigenProfielSection p,
+.profielSection p{
     margin-top: 0;
+}
+
+.eigenProfielSection li:last-of-type {
+    width: 4em;
+    background-color: #333;
+    padding-top: 1em;
+}
+
+.berichtenSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.berichtenSection img {
+    margin-right: 2em;
+    margin-top: 1em;
+    width: 7em;
+    margin-right: 0;
+}
+
+.berichtenSection h3 {
+    display: inline-block;
+    margin-left: 0;
+    text-align: center;
+}
+
+.berichtenSection li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
