@@ -6,28 +6,148 @@ body {
     margin: 0;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+a:visited {
+    text-decoration: none;
+    text-emphasis: none;
+}
+
+a {
+    text-decoration: none;
+    text-emphasis: none;
+}
+
 header {
     display: flex;
     background-color: #333;
     height: 3em;
     justify-content: space-around;
+    margin-bottom: 1em;
 }
 
-h1{
+h1 {
     margin: 0;
     color: white;
 }
 
-header img{
+header img {
     height: 2em;
     margin-top: 0.5em;
 }
 
-.berichten{
+.berichten {
     height: 1.5em;
     margin-top: 0.75em;
 }
 
+section {
+    background-color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.kandidaad {
+    float: left;
+    height: 6em;
+}
+
+h2 {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 1em;
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+section li {}
 
 
+section ul img {
+    width: 4em;
+}
 
+.inloggen {
+    height: 75%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+    box-shadow: 4px 4px 5px #aaaaaa;
+    margin: 0;
+    padding: 1em;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.inloggen label {
+    display: block
+}
+
+.inloggen input[type='submit'] {
+    display: block;
+}
+
+.loginH2 {
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+.inlogTitel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inlogTitel button {
+    height: 3em;
+    margin-top: 1.5em;
+}
+
+.editButton {
+    height: 1.5em;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+
+.eigenProfielSection h3{
+    margin-top: 3em;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.eigenProfielSection h4{
+    display: block;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.eigenProfielSection p{
+    margin-top: 0;
+}
